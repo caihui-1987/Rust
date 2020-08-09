@@ -17,7 +17,6 @@
 //借用:&mut
 fn calcute_length(s:&String)->usize{
     s.len()
-    
 }
 fn modify_s(s:&mut String){
     s.push_str(",world");

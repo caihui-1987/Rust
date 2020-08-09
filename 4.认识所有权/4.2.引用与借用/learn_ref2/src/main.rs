@@ -2,7 +2,6 @@
 //不能出现悬垂引用
 fn main() {
     let ref_s= dangle();
-
     println!("Hello, world!");
 }
 fn dangle()->&String{
